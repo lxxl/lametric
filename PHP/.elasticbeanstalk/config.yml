@@ -1,0 +1,19 @@
+branch-defaults:
+  Extended:
+    environment: null
+  Master:
+    environment: devel-stage1
+global:
+  application_name: smog
+  branch: null
+  default_ec2_keyname: null
+  default_platform: PHP 7.1
+  default_region: eu-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: lametric
+  sc: git
+  workspace_type: Application
