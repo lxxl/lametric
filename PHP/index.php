@@ -1,5 +1,4 @@
 <?php>
-error_reporting(0);
 $stationID = '129';
 $co_id = '737';
 $stan = file_get_contents('http://api.gios.gov.pl/pjp-api/rest/aqindex/getIndex/'.$stationID);
